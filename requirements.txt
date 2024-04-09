@@ -1,0 +1,9 @@
+transformers
+vosk
+pydub
+Flask
+torch
+sentencepiece
+tensorflow
+tf-keras
+-e .

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Summary</title>
+    <link rel="stylesheet" href="/static/home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Summary</h1>
+        <form action="/summarize" method="post" enctype="multipart/form-data">
+            <label for="audioFile">Upload Audio File (MP3 only):</label>
+            <input type="file" id="audioFile" name="audioFile" accept=".mp3" required>
+            <button type="submit">Summarize</button>
+        </form>
+        <div id="summary">
+            {{summary}}
+            <!-- Summary will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>
