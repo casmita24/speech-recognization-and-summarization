@@ -1,1 +1,1 @@
-# Speech Recognition and Summarization
+The Speech Summarizer System is a comprehensive tool designed for audio input summarization. Leveraging deep learning techniques in natural language processing (NLP), this system takes audio inputs and generates concise summaries. It integrates Vosk for audio recognition, Pydub for preprocessing, and Hugging Face Transformers for summarization. With Flask serving as the frontend, users can easily interact with the system, which is built with a modular approach for flexibility and scalability.
